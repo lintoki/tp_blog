@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="post" action="loginIndex">
+        <div>用户名：<input name="name" data-validate="required:用户名长度不能小于3"/></div>
+        <div>密码：<input type="password" name="password" data-validate="required:用户名长度不能小于6"/></div>
+        <div><img src="{:captcha_src()}" alt="captcha" onclick="this.src=this.src+'?'"/><input name="code"/></div>
+        <button type="submit">登录</button>
+    </form>
+</body>
+</html>

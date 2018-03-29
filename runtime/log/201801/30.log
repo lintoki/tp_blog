@@ -1,0 +1,292 @@
+---------------------------------------------------------------
+[ 2018-01-30T00:00:24+08:00 ] 14.130.168.34 GET /tp5/public/index.php/test/test/test
+[ info ] 47.100.169.35/tp5/public/index.php/test/test/test [运行时间：0.001838s][吞吐率：544.08req/s] [内存消耗：224.87kb] [文件加载：39]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]include(/mnt/code/tp5/application/test/controller/Test.php): failed to open stream: Permission denied[/mnt/code/tp5/thinkphp/library/think/Loader.php:646]
+---------------------------------------------------------------
+[ 2018-01-30T00:06:17+08:00 ] 61.148.245.111 GET /tp5/public/index.php/test/test/test
+[ info ] 47.100.169.35/tp5/public/index.php/test/test/test [运行时间：0.002148s][吞吐率：465.57req/s] [内存消耗：227.95kb] [文件加载：40]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\controller' not found[/mnt/code/tp5/application/test/controller/Test.php:7]
+---------------------------------------------------------------
+[ 2018-01-30T00:06:49+08:00 ] 61.148.245.111 GET /tp5/public/index.php/test/test/test
+[ info ] 47.100.169.35/tp5/public/index.php/test/test/test [运行时间：0.002231s][吞吐率：448.25req/s] [内存消耗：249.64kb] [文件加载：42]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Test->test[ /mnt/code/tp5/application/test/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-30T00:12:16+08:00 ] 61.148.245.111 GET /tp5/public/
+[ info ] 47.100.169.35/tp5/public/ [运行时间：0.001300s][吞吐率：769.31req/s] [内存消耗：173.06kb] [文件加载：36]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /mnt/code/tp5/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-30T00:12:28+08:00 ] 61.148.245.111 GET /tp5/public/test2/test/test
+[ info ] 47.100.169.35/tp5/public/test2/test/test [运行时间：0.001637s][吞吐率：610.88req/s] [内存消耗：159.28kb] [文件加载：38]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test2',
+    1 => 'test',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-30T00:12:33+08:00 ] 61.148.245.111 GET /tp5/public/test/test/test
+[ info ] 47.100.169.35/tp5/public/test/test/test [运行时间：0.001334s][吞吐率：749.65req/s] [内存消耗：249.02kb] [文件加载：42]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Test->test[ /mnt/code/tp5/application/test/controller/Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-30T00:12:38+08:00 ] 61.148.245.111 GET /tp5/public/test/test2/test
+[ info ] 47.100.169.35/tp5/public/test/test2/test [运行时间：0.001802s][吞吐率：554.95req/s] [内存消耗：224.67kb] [文件加载：39]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]include(/mnt/code/tp5/application/test/controller/Test2.php): failed to open stream: Permission denied[/mnt/code/tp5/thinkphp/library/think/Loader.php:646]
+---------------------------------------------------------------
+[ 2018-01-30T00:14:34+08:00 ] 61.148.245.111 GET /tp5/public/test/test2/test
+[ info ] 47.100.169.35/tp5/public/test/test2/test [运行时间：0.010374s][吞吐率：96.39req/s] [内存消耗：224.88kb] [文件加载：39]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]include(/mnt/code/tp5/application/test/controller/Test2.php): failed to open stream: Permission denied[/mnt/code/tp5/thinkphp/library/think/Loader.php:646]
+---------------------------------------------------------------
+[ 2018-01-30T00:14:35+08:00 ] 61.148.245.111 GET /tp5/public/test/test2/test
+[ info ] 47.100.169.35/tp5/public/test/test2/test [运行时间：0.001628s][吞吐率：614.19req/s] [内存消耗：224.88kb] [文件加载：39]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]include(/mnt/code/tp5/application/test/controller/Test2.php): failed to open stream: Permission denied[/mnt/code/tp5/thinkphp/library/think/Loader.php:646]
+---------------------------------------------------------------
+[ 2018-01-30T00:15:03+08:00 ] 61.148.245.111 GET /tp5/public/test/test2/test
+[ info ] 47.100.169.35/tp5/public/test/test2/test [运行时间：0.012689s][吞吐率：78.81req/s] [内存消耗：249.69kb] [文件加载：42]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Test2->test[ /mnt/code/tp5/application/test/controller/Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-30T00:15:21+08:00 ] 61.148.245.111 GET /tp5/public/test/test2/test
+[ info ] 47.100.169.35/tp5/public/test/test2/test [运行时间：0.001803s][吞吐率：554.58req/s] [内存消耗：224.88kb] [文件加载：39]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]include(/mnt/code/tp5/application/test/controller/Test2.php): failed to open stream: Permission denied[/mnt/code/tp5/thinkphp/library/think/Loader.php:646]

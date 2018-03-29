@@ -1,0 +1,67 @@
+---------------------------------------------------------------
+[ 2018-02-01T11:25:58+08:00 ] 115.171.61.180 GET /tp5/public/test/test/test
+[ info ] 47.100.169.35/tp5/public/test/test/test [运行时间：0.033742s][吞吐率：29.64req/s] [内存消耗：532.58kb] [文件加载：50]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Test->test[ /mnt/code/tp5/application/test/controller/Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /mnt/code/tp5/public/../application/test/view/test/test.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000567s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `testone` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT * FROM `testone` LIMIT 1 [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2018-02-01T14:09:29+08:00 ] 115.171.61.180 GET /tp5/public/test/test/test
+[ info ] 47.100.169.35/tp5/public/test/test/test [运行时间：0.006500s][吞吐率：153.85req/s] [内存消耗：399.04kb] [文件加载：50]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Test->test[ /mnt/code/tp5/application/test/controller/Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /mnt/code/tp5/public/../application/test/view/test/test.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000522s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `testone` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT * FROM `testone` LIMIT 1 [ RunTime:0.000274s ]

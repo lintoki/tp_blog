@@ -1,0 +1,697 @@
+---------------------------------------------------------------
+[ 2018-02-05T22:27:15+08:00 ] 121.71.219.85 GET /tp5/public/test/test/test
+[ info ] 47.100.169.35/tp5/public/test/test/test [运行时间：0.085174s][吞吐率：11.74req/s] [内存消耗：2,545.24kb] [文件加载：50]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Test->test[ /mnt/code/tp5/application/test/controller/Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /mnt/code/tp5/public/../application/test/view/test/test.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `testone` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `testone` LIMIT 1 [ RunTime:0.000273s ]
+---------------------------------------------------------------
+[ 2018-02-05T22:27:31+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/test
+[ info ] 47.100.169.35/tp5/public/test/testdb/test [运行时间：0.048110s][吞吐率：20.79req/s] [内存消耗：1,439.82kb] [文件加载：39]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-05T22:28:02+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/sec
+[ info ] 47.100.169.35/tp5/public/test/testdb/sec [运行时间：0.012115s][吞吐率：82.54req/s] [内存消耗：1,487.01kb] [文件加载：42]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'sec',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-05T22:28:07+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/sec
+[ info ] 47.100.169.35/tp5/public/test/testdb/sec [运行时间：0.012337s][吞吐率：81.06req/s] [内存消耗：1,487.09kb] [文件加载：42]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'sec',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-05T22:29:03+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/sec
+[ info ] 47.100.169.35/tp5/public/test/testdb/sec [运行时间：0.016820s][吞吐率：59.45req/s] [内存消耗：1,487.09kb] [文件加载：42]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'sec',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-05T22:31:42+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/sec
+[ info ] 47.100.169.35/tp5/public/test/testdb/sec [运行时间：0.013666s][吞吐率：73.17req/s] [内存消耗：1,487.09kb] [文件加载：42]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'sec',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-05T22:32:40+08:00 ] 121.71.219.85 GET /tp5/public/test/test2/test
+[ info ] 47.100.169.35/tp5/public/test/test2/test [运行时间：0.024005s][吞吐率：41.66req/s] [内存消耗：1,485.48kb] [文件加载：42]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-05T22:32:48+08:00 ] 121.71.219.85 GET /tp5/public/test/test/test
+[ info ] 47.100.169.35/tp5/public/test/test/test [运行时间：0.026170s][吞吐率：38.21req/s] [内存消耗：2,545.24kb] [文件加载：50]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Test->test[ /mnt/code/tp5/application/test/controller/Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /mnt/code/tp5/public/../application/test/view/test/test.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000526s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `testone` [ RunTime:0.005146s ]
+[ sql ] [ SQL ] SELECT * FROM `testone` LIMIT 1 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2018-02-05T22:34:00+08:00 ] 121.71.219.85 GET /tp5/public/test/test/test
+[ info ] 47.100.169.35/tp5/public/test/test/test [运行时间：0.026597s][吞吐率：37.60req/s] [内存消耗：2,545.32kb] [文件加载：50]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Test->test[ /mnt/code/tp5/application/test/controller/Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /mnt/code/tp5/public/../application/test/view/test/test.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000522s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `testone` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `testone` LIMIT 1 [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2018-02-05T22:34:11+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/test
+[ info ] 47.100.169.35/tp5/public/test/testdb/test [运行时间：0.020021s][吞吐率：49.95req/s] [内存消耗：1,486.14kb] [文件加载：42]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-05T22:34:48+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/test
+[ info ] 47.100.169.35/tp5/public/test/testdb/test [运行时间：0.021672s][吞吐率：46.14req/s] [内存消耗：1,786.96kb] [文件加载：45]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-05T22:34:54+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/sec
+[ info ] 47.100.169.35/tp5/public/test/testdb/sec [运行时间：0.022705s][吞吐率：44.04req/s] [内存消耗：1,980.38kb] [文件加载：46]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'sec',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Testdb->sec[ /mnt/code/tp5/application/test/controller/Testdb.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003456s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] select * from testone [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[ 2018-02-05T22:37:07+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/sec
+[ info ] 47.100.169.35/tp5/public/test/testdb/sec [运行时间：0.020379s][吞吐率：49.07req/s] [内存消耗：1,981.34kb] [文件加载：46]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'sec',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Testdb->sec[ /mnt/code/tp5/application/test/controller/Testdb.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] select * from testone [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2018-02-05T22:37:11+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/ins
+[ info ] 47.100.169.35/tp5/public/test/testdb/ins [运行时间：0.022745s][吞吐率：43.97req/s] [内存消耗：1,946.05kb] [文件加载：46]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'ins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Testdb->ins[ /mnt/code/tp5/application/test/controller/Testdb.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003261s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] insert into testone (content) VALUES ("a5685122") [ RunTime:0.003006s ]
+---------------------------------------------------------------
+[ 2018-02-05T22:37:26+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/ins
+[ info ] 47.100.169.35/tp5/public/test/testdb/ins [运行时间：0.023094s][吞吐率：43.30req/s] [内存消耗：1,946.13kb] [文件加载：46]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'ins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Testdb->ins[ /mnt/code/tp5/application/test/controller/Testdb.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000519s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] insert into testone (content) VALUES ("a5685122") [ RunTime:0.003455s ]
+---------------------------------------------------------------
+[ 2018-02-05T22:43:29+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/ins
+[ info ] 47.100.169.35/tp5/public/test/testdb/ins [运行时间：0.026231s][吞吐率：38.12req/s] [内存消耗：1,947.77kb] [文件加载：46]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'ins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Testdb->ins[ /mnt/code/tp5/application/test/controller/Testdb.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000534s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] insert into testone (content) VALUES ('dfgdfgdfgdf') [ RunTime:0.002871s ]
+---------------------------------------------------------------
+[ 2018-02-05T23:05:55+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/tesd
+[ info ] 47.100.169.35/tp5/public/test/testdb/tesd [运行时间：0.026063s][吞吐率：38.37req/s] [内存消耗：1,440.13kb] [文件加载：38]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'tesd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '}'[/mnt/code/tp5/application/test/controller/Testdb.php:24]
+---------------------------------------------------------------
+[ 2018-02-05T23:06:20+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/tesd
+[ info ] 47.100.169.35/tp5/public/test/testdb/tesd [运行时间：0.043385s][吞吐率：23.05req/s] [内存消耗：2,548.30kb] [文件加载：49]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'tesd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Testdb->tesd[ /mnt/code/tp5/application/test/controller/Testdb.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005158s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `testone` [ RunTime:0.001561s ]
+[ sql ] [ SQL ] INSERT INTO `testone` (`content`) VALUES ('asdadasd') [ RunTime:0.007667s ]
+[ sql ] [ SQL ] SELECT * FROM `testone` WHERE  `id` = 4 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2018-02-05T23:08:53+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/tesd
+[ info ] 47.100.169.35/tp5/public/test/testdb/tesd [运行时间：0.042236s][吞吐率：23.68req/s] [内存消耗：2,548.22kb] [文件加载：49]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'tesd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Testdb->tesd[ /mnt/code/tp5/application/test/controller/Testdb.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `testone` [ RunTime:0.005116s ]
+[ sql ] [ SQL ] INSERT INTO `testone` (`content`) VALUES ('sdfsdfhgfh') [ RunTime:0.003290s ]
+[ sql ] [ SQL ] SELECT * FROM `testone` WHERE  `id` = 8 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2018-02-05T23:08:56+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/tesd
+[ info ] 47.100.169.35/tp5/public/test/testdb/tesd [运行时间：0.043010s][吞吐率：23.25req/s] [内存消耗：2,548.34kb] [文件加载：49]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'tesd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Testdb->tesd[ /mnt/code/tp5/application/test/controller/Testdb.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000614s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `testone` [ RunTime:0.000882s ]
+[ sql ] [ SQL ] INSERT INTO `testone` (`content`) VALUES ('sdfsdfhgfh') [ RunTime:0.008919s ]
+[ sql ] [ SQL ] SELECT * FROM `testone` WHERE  `id` = 8 [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[ 2018-02-05T23:11:01+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/tesd
+[ info ] 47.100.169.35/tp5/public/test/testdb/tesd [运行时间：0.031064s][吞吐率：32.19req/s] [内存消耗：2,548.87kb] [文件加载：49]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'tesd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Testdb->tesd[ /mnt/code/tp5/application/test/controller/Testdb.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000979s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `testone` [ RunTime:0.003147s ]
+[ sql ] [ SQL ] INSERT INTO `testone` (`content`) VALUES ('sdfsdfhgfh') [ RunTime:0.003126s ]
+[ sql ] [ SQL ] SELECT `content` FROM `testone` WHERE  `id` = 8 ORDER BY `id`  desc LIMIT 5 [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2018-02-05T23:11:46+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/tesd
+[ info ] 47.100.169.35/tp5/public/test/testdb/tesd [运行时间：0.028072s][吞吐率：35.62req/s] [内存消耗：2,547.38kb] [文件加载：49]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'tesd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Testdb->tesd[ /mnt/code/tp5/application/test/controller/Testdb.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001682s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `testone` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] INSERT INTO `testone` (`content`) VALUES ('sdfsdfhgfh') [ RunTime:0.003330s ]
+[ sql ] [ SQL ] SELECT `content` FROM `testone` ORDER BY `id`  desc LIMIT 5 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2018-02-05T23:16:18+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/tesd
+[ info ] 47.100.169.35/tp5/public/test/testdb/tesd [运行时间：0.026455s][吞吐率：37.80req/s] [内存消耗：1,794.88kb] [文件加载：46]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'tesd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Testdb->tesd[ /mnt/code/tp5/application/test/controller/Testdb.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant testone - assumed 'testone'[/mnt/code/tp5/application/test/controller/Testdb.php:24]
+---------------------------------------------------------------
+[ 2018-02-05T23:16:36+08:00 ] 121.71.219.85 GET /tp5/public/test/testdb/tesd
+[ info ] 47.100.169.35/tp5/public/test/testdb/tesd [运行时间：0.024221s][吞吐率：41.29req/s] [内存消耗：2,545.54kb] [文件加载：49]
+[ info ] [ LANG ] /mnt/code/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'testdb',
+    2 => 'tesd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.100.169.35',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\test\controller\Testdb->tesd[ /mnt/code/tp5/application/test/controller/Testdb.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000492s ] mysql:host=127.0.0.1;port=3306;dbname=tptest1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `testone` [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT `content` FROM `testone` ORDER BY `id`  desc LIMIT 10 [ RunTime:0.000290s ]
